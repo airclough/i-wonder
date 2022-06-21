@@ -5,10 +5,11 @@
 
     .ListItem {
       list-style: none;
+      position: relative;
 
       a {
         text-decoration: none;
-        
+
         .listItemContainer {
           border: 1px solid #dee2e6;
           margin-bottom: 1.5rem;
@@ -25,6 +26,7 @@
             font-weight: 700;
             line-height: 1.75rem;
             margin-bottom: 1.5rem;
+            padding-right: 1.5rem;
           }
 
           p {
@@ -48,6 +50,13 @@
             }
           }
         }
+      }
+
+      .icon {
+        height: 16px;
+        position: absolute;
+        right: 2.5rem;
+        top: 2rem;
       }
     }
   }

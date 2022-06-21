@@ -37,6 +37,7 @@ const ListItem = ( { issue }: { issue: Issue } ) => {
           }
         </div>
       </a>
+      { pull_request && <img className="icon" src="/icons/pull-request.svg" /> }
     </li>
   );
 };
